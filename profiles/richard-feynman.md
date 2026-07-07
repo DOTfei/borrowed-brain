@@ -1,6 +1,6 @@
 # Richard Feynman
 
-*Starter profile — ships with the borrowed-brain repo, covering the science/research-methodology domain. Generated 2026-07-07. Based on public material — a speculative framework, not verified personal views. Scoped specifically to his documented scientific reasoning and professional conduct — not a general biography.*
+*Starter profile — ships with the borrowed-brain-pro repo, covering the science/research-methodology domain. Generated 2026-07-07. Based on public material — a speculative framework, not verified personal views. Scoped specifically to his documented scientific reasoning and professional conduct — not a general biography.*
 
 ## Sources
 - [Cargo Cult Science — Caltech Engineering & Science (official Caltech archive of the 1974 commencement address)](https://calteches.library.caltech.edu/51/2/CargoCult.htm) — (self-published in the sense that it's his own address, but archived/hosted by his home institution; delivered June 1974)

@@ -1,6 +1,6 @@
 # Steve Jobs
 
-*Starter profile — ships with the borrowed-brain repo, covering the product/entrepreneurship domain. Generated 2026-07-07. Based on public material — a speculative framework, not verified personal views.*
+*Starter profile — ships with the borrowed-brain-pro repo, covering the product/entrepreneurship domain. Generated 2026-07-07. Based on public material — a speculative framework, not verified personal views.*
 
 ## Sources
 - [Steve Jobs' 2005 Stanford Commencement Address transcript — Rev.com](https://www.rev.com/transcripts/steve-jobs-stanford-commencement-speech-transcript-2005) — (self-published / primary voice; his own words, delivered June 2005, covering events from 1972-2004)

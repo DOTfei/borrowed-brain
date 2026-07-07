@@ -1,9 +1,9 @@
-<img src=".github/assets/banner.svg" alt="borrowed-brain" width="100%">
+<img src=".github/assets/banner.svg" alt="borrowed-brain-pro" width="100%">
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/DOTfei/borrowed-brain?style=social)](https://github.com/DOTfei/borrowed-brain/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/DOTfei/borrowed-brain-pro?style=social)](https://github.com/DOTfei/borrowed-brain-pro/stargazers)
 [![Claude Skill](https://img.shields.io/badge/Claude-Skill-6b4fbb)](SKILL.md)
 
 **A Claude Skill that distills any public figure's thinking into a reusable framework — then applies it as an extra lens on a decision you're actually facing.**
@@ -23,7 +23,7 @@ Build a thinking profile for Naval Ravikant
 Using the Reed Hastings profile, what am I missing in this hiring decision — [describe it]?
 ```
 ```
-What does borrowed-brain do?
+What does borrowed-brain-pro do?
 ```
 
 That last one works too — if you're not sure what to ask, just ask the skill directly and it'll explain the two modes and give you a working first command instead of leaving you guessing.
@@ -34,7 +34,7 @@ That last one works too — if you're not sure what to ask, just ask the skill d
 
 Most "think like X" prompts produce generic motivational-poster output — every profile sounds the same because it's built from the polished, public-facing version of a person.
 
-`borrowed-brain` deliberately searches for the messier material too — documented failures, criticism, moments where the person's own account and an outside account diverge — because that's where real decision logic actually shows up. It also forces every "principle" in the profile to trace back to a specific, sourced fact, so profiles stay grounded instead of turning into flattery.
+`borrowed-brain-pro` deliberately searches for the messier material too — documented failures, criticism, moments where the person's own account and an outside account diverge — because that's where real decision logic actually shows up. It also forces every "principle" in the profile to trace back to a specific, sourced fact, so profiles stay grounded instead of turning into flattery.
 
 ## What it does
 
@@ -102,10 +102,10 @@ This is a Claude Skill — a plain instruction file (`SKILL.md`), no code depend
 
 **Claude Code (CLI):**
 ```
-mkdir -p ~/.claude/skills/borrowed-brain
-cp SKILL.md ~/.claude/skills/borrowed-brain/
+mkdir -p ~/.claude/skills/borrowed-brain-pro
+cp SKILL.md ~/.claude/skills/borrowed-brain-pro/
 ```
-(Use `.claude/skills/borrowed-brain/` inside a specific project instead of `~/.claude/skills/` if you only want it available there.)
+(Use `.claude/skills/borrowed-brain-pro/` inside a specific project instead of `~/.claude/skills/` if you only want it available there.)
 
 **Claude.ai:** open Settings → Capabilities → Skills, and upload `SKILL.md` directly.
 

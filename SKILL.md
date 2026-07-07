@@ -1,6 +1,6 @@
 ---
-name: borrowed-brain
-description: Distills any real person's public thinking (a business leader, scientist, writer, investor, teacher — anyone with enough public track record) into a structured, reusable "thinking profile," then applies that profile as an extra lens on a problem the user is facing. Use this whenever the user names a specific person and asks to think, decide, or write "like" them, wants their "framework" or "mental model," asks "what would X think about this," or wants to build/update a saved profile for a person to reuse later. Also trigger when the user references an existing profile in profiles/ and wants it applied to a new question, when the user seems unsure what this skill does or how to invoke it (asks "what does borrowed-brain do," "how do I use this," or similar), or when the user describes a real decision/dilemma without naming anyone and profiles/ already has a profile that plausibly bears on it — in that last case, only surface it as a one-line optional suggestion, don't apply it unprompted. Do NOT use this to impersonate a person's literal voice for creative writing/dialogue — that's a different task.
+name: borrowed-brain-pro
+description: Distills any real person's public thinking (a business leader, scientist, writer, investor, teacher — anyone with enough public track record) into a structured, reusable "thinking profile," then applies that profile as an extra lens on a problem the user is facing. Use this whenever the user names a specific person and asks to think, decide, or write "like" them, wants their "framework" or "mental model," asks "what would X think about this," or wants to build/update a saved profile for a person to reuse later. Also trigger when the user references an existing profile in profiles/ and wants it applied to a new question, when the user seems unsure what this skill does or how to invoke it (asks "what does borrowed-brain-pro do," "how do I use this," or similar), or when the user describes a real decision/dilemma without naming anyone and profiles/ already has a profile that plausibly bears on it — in that last case, only surface it as a one-line optional suggestion, don't apply it unprompted. Do NOT use this to impersonate a person's literal voice for creative writing/dialogue — that's a different task.
 ---
 
 # Borrowed Brain
@@ -14,7 +14,7 @@ This skill has two modes. Figure out which one the user needs before starting:
 
 If unsure which mode, check whether `profiles/<name>.md` already exists first.
 
-**If the user's request doesn't clearly fit either mode** — they've just installed this and said something like "what can you do," "how does borrowed-brain work," or invoked it without naming a person or a question — don't guess and don't stay silent. Give a short, concrete answer instead of reciting this whole file back at them:
+**If the user's request doesn't clearly fit either mode** — they've just installed this and said something like "what can you do," "how does borrowed-brain-pro work," or invoked it without naming a person or a question — don't guess and don't stay silent. Give a short, concrete answer instead of reciting this whole file back at them:
 
 > This turns a real person's public track record into a reusable "thinking profile," then uses it as an extra lens on a decision — not a verdict, not an impersonation. Try one of:
 > - "Build a thinking profile for [name]" → researches them, saves `profiles/[name].md`

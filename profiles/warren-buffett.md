@@ -1,6 +1,6 @@
 # Warren Buffett
 
-*Starter profile — ships with the borrowed-brain repo, covering the investing domain. Generated 2026-07-07. Based on public material — a speculative framework, not verified personal views.*
+*Starter profile — ships with the borrowed-brain-pro repo, covering the investing domain. Generated 2026-07-07. Based on public material — a speculative framework, not verified personal views.*
 
 ## Sources
 - [1996 Berkshire Hathaway Chairman's Letter](https://www.berkshirehathaway.com/letters/1996.html) — Berkshire Hathaway shareholder letters archive (self-published — 1996, referenced via secondary summaries at Chian.io and AES International)

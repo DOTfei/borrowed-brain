@@ -1,4 +1,4 @@
-# Contributing to borrowed-brain
+# Contributing to borrowed-brain-pro
 
 This is a single instruction file (`SKILL.md`) plus a folder of example output (`profiles/`). There's no build step, no tests to run, no dependencies to install — contributing means editing Markdown thoughtfully.
 
