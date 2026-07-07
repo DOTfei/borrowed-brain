@@ -1,6 +1,10 @@
-# 🧠 borrowed-brain
+<img src=".github/assets/banner.svg" alt="borrowed-brain" width="100%">
 
 [English](README.md) | [简体中文](README.zh-CN.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/DOTfei/borrowed-brain?style=social)](https://github.com/DOTfei/borrowed-brain/stargazers)
+[![Claude Skill](https://img.shields.io/badge/Claude-Skill-6b4fbb)](SKILL.md)
 
 **A Claude Skill that distills any public figure's thinking into a reusable framework — then applies it as an extra lens on a decision you're actually facing.**
 
@@ -84,4 +88,4 @@ Either way, restart your session and reference a person by name to trigger it �
 
 ---
 
-Contributions, better source-checklists, and example profiles welcome.
+Contributions, better source-checklists, and example profiles welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
