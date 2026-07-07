@@ -38,6 +38,8 @@ Confirm (ask only if genuinely ambiguous, otherwise infer and state your assumpt
 - Any specific domain/angle the user cares about (e.g. "his product decisions" vs. general)
 - Whether the user has specific source material to prioritize (articles, interview links, a book) — if so, use those as the anchor sources first
 
+**Language**: write the profile file in the same language the user is using to talk to you (e.g. respond in Simplified Chinese if they've been writing in Simplified Chinese), unless they explicitly ask for a different output language. Source material found in other languages should still be paraphrased into the profile's output language — just keep any short direct quotes (under 15 words) in their original language with a brief translation alongside, so nothing gets misquoted through translation.
+
 ### Step 2 — Research (search in layers, don't do one generic search)
 
 **Before searching, confirm you actually have working search/fetch tools in this environment.** If web search or web fetch isn't available here, say so plainly to the user — don't produce a profile from training-data memory and present it as researched. Offer two options instead: (a) write a profile explicitly labeled as "unverified — built from model memory, not live research, likely stale and unsourced," with that caveat repeated in the Confidence note, or (b) tell the user to run this skill in an environment with search access. Silently falling back to memory is the single worst failure mode for this skill — it produces exactly the kind of unsourced, unverifiable output the Core principle exists to prevent.
@@ -136,6 +138,8 @@ Read `profiles/<name>.md`. If the user references more than one person, load eac
 **Check the profile's generation date before applying it.** People's public positions, roles, and circumstances change. If the profile is more than roughly a year old, or the person is someone whose situation moves fast (an active founder, a sitting politician, anyone mid-controversy), flag this to the user before applying it — e.g. "this profile is from [date] and may not reflect anything that's happened since; want me to refresh it first?" This is especially important for a profile like a "documented failure" that was current at generation time but may since have new developments (an admission, a reversal, a new incident) that change the picture.
 
 ### Step 2 — Apply it to their actual situation
+
+Respond in the same language the user is using, even if the loaded profile file itself is written in a different language — translate the relevant principle/reasoning faithfully rather than quoting the profile file's language verbatim.
 
 Don't answer as if you *are* the person. Structure the response as:
 

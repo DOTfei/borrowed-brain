@@ -1,5 +1,7 @@
 # 🧠 borrowed-brain
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 **A Claude Skill that distills any public figure's thinking into a reusable framework — then applies it as an extra lens on a decision you're actually facing.**
 
 Not a chatbot impersonation. Not a quote generator. A structured "thinking profile" built from real public material — interviews, decisions, failures, criticism — that you can point at your own problem and ask: *what would this framework surface that I'm missing?*
