@@ -20,6 +20,65 @@ https://github.com/user-attachments/assets/8a81e7cb-f938-40b1-ab87-a4512b96e322
 
 > *Describe a real decision → skill reads the profile index → suggests the right lens → surfaces where two frameworks conflict*
 
+<details>
+<summary>📄 Read the full transcript from this demo</summary>
+
+**Prompt 1**
+> I'm building a SaaS product. We have a working MVP but there are still quite a few bugs. The team wants to launch now to get real user feedback. I'm not sure if we should push or wait until it's cleaner. What should I think about?
+
+No saved profiles yet — but I can still help you think this through directly.
+
+The "ship buggy MVP vs. wait" question usually comes down to a few distinctions worth separating:
+
+- **What kind of bugs are they?** Bugs that corrupt data, break core workflows, or lose user trust → launch blockers. Cosmetic, edge-case, or workaroundable bugs → usually fine to ship.
+- **What do you actually need from "real user feedback"?** If it's signal on whether the core value prop resonates, bugs in secondary features don't interfere. If it's signal on trustworthiness, shipping buggy erodes exactly what you're testing.
+- **Who are the first users?** Friendly early adopters tolerate bugs. Cold or paying users judge once and leave.
+- **Can you narrow the surface area instead of resolving the binary?** Launch to 20 people, launch behind a feature flag, launch without announcing broadly — this gets you feedback without betting the whole first impression on the current state.
+
+*If you want, I can build a thinking profile for someone whose judgment you'd want on this call and run your situation through it — just name who.*
+
+---
+
+**Prompt 2**
+> Use both Steve Jobs and Sam Altman's profiles. I want to see where they agree and where they conflict.
+
+Neither profile exists yet — building both now from live research.
+
+**Where they agree**
+
+Both explicitly reject "ship no matter what" — neither is a pure speed-over-quality thinker.
+
+- Jobs: "real artists ship," but never at the cost of being "up to Apple's standards."
+- Altman: launch early and iterate, but "generally won't release something crappy… this is not an excuse to launch slowly."
+
+Both also independently arrive at the same tactical move: **narrow the surface area** rather than resolve the binary. Jobs' MobileMe postmortem proposed launching sync first, then Mail, then Calendar — not the whole thing at once. Altman's framework says the same from the other direction: make a small number of users love a narrow product, rather than a large number merely tolerate a broad one.
+
+**Where they conflict**
+
+- **Jobs' lens → lean toward delay.** His instinct, when in doubt, puts "is the core thing right" ahead of the calendar. His documented failure (MobileMe, 2008) is a case where shipping on schedule when it wasn't ready cost him publicly — he called it "not our finest hour."
+- **Altman's lens → lean toward ship.** His documented failure (OpenAI's compressed safety-testing timelines under competitive pressure) is a case where his stated principle *lost* to urgency — not a case where he chose to wait and regretted it. His instinct, in the gap between ideal and real pressure, leans toward ship.
+
+**What neither lens covers**
+
+Neither is speaking from your position — an early team wanting user feedback on an MVP, not a company already dominant enough to survive a bad launch's reputational cost. Both Jobs' and Altman's calls were made from positions of resource and reputational slack that a first-time SaaS team doesn't have yet.
+
+---
+
+**Prompt 3**
+> What does the Jobs framework miss here that's specific to my situation?
+
+Running Jobs' framework's blind spots for your situation specifically:
+
+1. **He never operated from a position of needing outside validation for the idea itself.** Jobs' ship-vs.-wait calls were always about execution risk on a product whose market fit was already assumed. You're also trying to answer "do people want this at all" — his framework has very little to say about that, because he rarely faced it after Apple II days.
+
+2. **He had a captive channel and a controlled reveal — you don't.** Apple controlled the moment, the press, the framing. A SaaS MVP going out through open channels (Product Hunt, cold signups, social) can permanently churn a user in one buggy session, with no press cycle to soften it.
+
+3. **His failure case (MobileMe) is about infrastructure, not iteration.** MobileMe was a finished service pushed to millions of paying users, not an MVP to a small forgiving cohort. Applying his "delay until right" instinct too literally risks importing big-company caution that doesn't map onto your actual use case.
+
+4. **He rarely had a team he needed to keep motivated through delay.** Jobs could impose delay by fiat. Extended delay didn't cost him team belief or runway the way it might cost you — his framework doesn't weigh team momentum as a real variable.
+
+</details>
+
 ---
 
 ## 🚀 Just installed this? Start here
