@@ -42,6 +42,27 @@ borrowed-brain 是做什么的？
 
 **Apply（应用）模式** —— 把一份已有档案套到你正面对的真实问题上，它会用这个视角来推理你的处境——并明确标注这只是"一个有局限的视角"，不是判决。
 
+```mermaid
+flowchart LR
+    A("👤 人名\n例如「巴菲特」") -->|Distill 蒸馏模式| B
+
+    subgraph B["研究"]
+        direction TB
+        b1["访谈 · 决策记录\n失败 · 批评"]
+    end
+
+    B --> C("📄 profiles/warren-buffett.md\n原则 · 失效条件\n来源 · 可信度说明")
+
+    C -->|Apply 应用模式| D
+
+    subgraph D["你的真实决策"]
+        direction TB
+        d1["用自己的话\n描述你的处境"]
+    end
+
+    D --> E("🔍 一个额外的视角\n不是判决——明确标注\n这个框架覆盖不到什么")
+```
+
 ## 示例
 
 以下是从 [`profiles/reed-hastings.md`](profiles/reed-hastings.md) 里摘出的真实片段，由实际运行 Distill 模式生成——不是虚构的样例：
