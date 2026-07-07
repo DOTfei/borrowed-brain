@@ -12,6 +12,7 @@
 | [Reed Hastings](reed-hastings.md) | Leadership / culture | Building candor into a team. Handling a big strategic pivot. Farming for dissent before committing. |
 | [Travis Kalanick](travis-kalanick.md) | Aggressive growth / startups | Push into a hostile market or wait. Speed vs. compliance. Growth at all costs trade-offs. |
 | [Julia Evans](julia-evans.md) | Technical teaching / writing | Explaining something hard to a non-expert. Deciding what's worth documenting. Writing for your past self. |
+| [Sam Altman](sam-altman.md) | AI startups / growth | Should I ship before it's ready? Speed vs. safety trade-offs. How to frame a controversial decision publicly. Building a team that executes fast. |
 
 ---
 
