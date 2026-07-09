@@ -1,6 +1,6 @@
 <img src=".github/assets/banner.svg" alt="borrowed-brain-pro" width="100%">
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | [简体中文](README.zh-CN.md) | [한국어](README.ko.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DOTfei/borrowed-brain-pro?style=social)](https://github.com/DOTfei/borrowed-brain-pro/stargazers)
